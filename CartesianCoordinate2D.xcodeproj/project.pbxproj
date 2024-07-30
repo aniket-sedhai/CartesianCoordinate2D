@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A17518EA2C27DAEC0007BF45 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A17518E92C27DAEC0007BF45 /* main.cpp */; };
+		A17518F12C27DBAC0007BF45 /* CartesianCoordinate2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A17518F02C27DBAC0007BF45 /* CartesianCoordinate2D.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A17518E62C27DAEC0007BF45 /* CartesianCoordinate2D */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CartesianCoordinate2D; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17518E92C27DAEC0007BF45 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A17518F02C27DBAC0007BF45 /* CartesianCoordinate2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CartesianCoordinate2D.cpp; sourceTree = "<group>"; };
+		A17518F22C27DBBF0007BF45 /* CartesianCoordinate2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartesianCoordinate2D.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A17518E92C27DAEC0007BF45 /* main.cpp */,
+				A17518F02C27DBAC0007BF45 /* CartesianCoordinate2D.cpp */,
+				A17518F22C27DBBF0007BF45 /* CartesianCoordinate2D.h */,
 			);
 			path = CartesianCoordinate2D;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17518F12C27DBAC0007BF45 /* CartesianCoordinate2D.cpp in Sources */,
 				A17518EA2C27DAEC0007BF45 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
